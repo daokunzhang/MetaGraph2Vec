@@ -1,3 +1,5 @@
+#MetaGraph2Vec
+
 Code for PAKDD-2018 paper "MetaGraph2Vec: Complex Semantic Path Augmented Heterogeneous Network Embedding"
 
 Authors: Daokun Zhang, Jie Yin, Xingquan Zhu and Chengqi Zhang
