@@ -45,6 +45,7 @@ The options of randomWalk2Vec are as follows:
 
 If you find this project is useful, please cite this paper:
 
+"""
 @inproceedings{zhang2018metagraph2vec,
   title={MetaGraph2Vec: Complex Semantic Path Augmented Heterogeneous Network Embedding},
   author={Zhang, Daokun and Yin, Jie and Zhu, Xingquan and Zhang, Chengqi},
@@ -52,3 +53,4 @@ If you find this project is useful, please cite this paper:
   year={2018}
   organization={Springer}
 }
+"""
