@@ -489,7 +489,7 @@ public class PreProcessStep3 { // generate random walk sequences, including Meta
 		for(int i=0;i<numOfWalk;i++)
 		{
 			System.out.println("rand walking iteration = "+i);
-			int[] arr = new int[numOfAuthor]; // a random permutation of integers from 1 to numOfAuthor inclusive;
+			int[] arr = new int[numOfAuthor]; // a random permutation of integers from 0 to numOfAuthor-1 inclusive;
 			for(int j=0;j<numOfAuthor;j++)
 				arr[j] = j;
 			Random random = new Random();
@@ -514,7 +514,7 @@ public class PreProcessStep3 { // generate random walk sequences, including Meta
 				bwUniformRandWalk.write(path+"\n");
 			}
 		}
-		int[] arr1 = new int[numOfWalk]; // a random permutation of integers from 1 to numOfWalk inclusive;
+		int[] arr1 = new int[numOfWalk]; // a random permutation of integers from 0 to numOfWalk-1 inclusive;
 		for(int i=0;i<numOfWalk;i++)
 			arr1[i] = i;
 		Random random1 = new Random();
