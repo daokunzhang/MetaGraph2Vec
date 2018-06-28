@@ -42,7 +42,7 @@ public class PreProcessStep2 { // obtain the class labels for authors;
 			venueList4.add(venues4[i]);
 		venueLists.add(venueList4);
 		
-		int[] arrClass = new int[4]; // a random permutation of integers from 1 to 4 inclusive;
+		int[] arrClass = new int[4]; // a random permutation of integers from 0 to 3 inclusive;
 		for(int i=0;i<4;i++)
 			arrClass[i] = i;
 		Random randomClass = new Random();
@@ -207,7 +207,7 @@ public class PreProcessStep2 { // obtain the class labels for authors;
 		}
 		for(int i=0;i<numOfAuthor;i++)
 		{
-			int[] arrClass = new int[4]; // a random permutation of integers from 1 to 4 inclusive;
+			int[] arrClass = new int[4]; // a random permutation of integers from 0 to 3 inclusive;
 			for(int j=0;j<4;j++)
 				arrClass[j] = j;
 			Random randomClass = new Random();
