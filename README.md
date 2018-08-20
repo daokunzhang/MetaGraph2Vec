@@ -55,4 +55,6 @@ If you find this project is useful, please cite this paper:
 		year={2018},
 		organization={Springer}
 	}
-
+# Note
+The randomWalk2vec.c is compiled on a Linux system with RAND_MAX taking value 2147483647. If you compile randomWalk2vec.c on your system, please carefully check the value of RAND_MAX to make sure it is large enough for the correctness of alias
+table sampling.
