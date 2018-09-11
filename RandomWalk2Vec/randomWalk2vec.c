@@ -512,7 +512,7 @@ void InitAliasTable()
         exit(1);
     }
     for (k = 0; k != node_context_list_size; k++) sum += node_context_list[k].cn;
-    for (k = 0; k != node_context_list_size; k++) norm_prob[k] = node_context_list[k].cn * node_context_list_size / sum;
+    for (k = 0; k != node_context_list_size; k++) norm_prob[k] = (double)node_context_list[k].cn * node_context_list_size / sum;
     for (k = node_context_list_size - 1; k >= 0; k--)
     {
         if (norm_prob[k]<1)
