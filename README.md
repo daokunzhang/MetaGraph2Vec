@@ -18,7 +18,7 @@ This project contains two folders:
 
 To run this project, firstly download the "DBLP-Citation-Network-V3.txt" file from https://aminer.org/citation, and move it to the "DBLPPreProcess/dataset" folder, then run "PreProcessStep1", "PreProcessStep2" and "PreProcessStep3" sequentially. The class label file will be output to the folder "DBLPPreProcess/group", and the random walk files will be output to the folder "DBLPPreProcess/randomwalk".
 
-2) The folder "RandomWalk2VecRun" contains the program for learning node embeddings from the generated random walk sequences. To run this program, move the generated random walk files from "DBLPPreProcess/randomwalk" to this folder and run the "RandomWalk2VecRun.sh" file.
+2) The folder "RandomWalk2VecRun" contains the program for learning node embeddings from the generated random walk sequences. Please run "compile.sh" to compile the "randomwalk2vec.c" to the executable file. To run this program, move the generated random walk files from "DBLPPreProcess/randomwalk" to this folder and run the "RandomWalk2VecRun.sh" file.
 
 In this folder, the "randomWalk2vec" program is used to learn node embeddings from random walk sequences with Heterogeneous Skip-Gram or Homogeneous Skip-Gram.
 
